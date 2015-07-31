@@ -13,6 +13,8 @@
 		2C18770B1B6B162F0001D92B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C18770A1B6B162F0001D92B /* Images.xcassets */; };
 		2C18770E1B6B16300001D92B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C18770C1B6B16300001D92B /* LaunchScreen.xib */; };
 		2C18771A1B6B16300001D92B /* CenterButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1877191B6B16300001D92B /* CenterButtonTests.swift */; };
+		2C1877241B6B1EA80001D92B /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1877231B6B1EA80001D92B /* RoundButton.swift */; };
+		2C60E7241B6B413F0002C14D /* RequestForLayout.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2C60E7231B6B413F0002C14D /* RequestForLayout.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		2C1877131B6B16300001D92B /* CenterButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CenterButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C1877181B6B16300001D92B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C1877191B6B16300001D92B /* CenterButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterButtonTests.swift; sourceTree = "<group>"; };
+		2C1877231B6B1EA80001D92B /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		2C60E7231B6B413F0002C14D /* RequestForLayout.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = RequestForLayout.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +81,10 @@
 		2C1877001B6B162E0001D92B /* CenterButton */ = {
 			isa = PBXGroup;
 			children = (
+				2C60E7231B6B413F0002C14D /* RequestForLayout.rtf */,
 				2C1877031B6B162F0001D92B /* AppDelegate.swift */,
 				2C1877051B6B162F0001D92B /* ViewController.swift */,
+				2C1877231B6B1EA80001D92B /* RoundButton.swift */,
 				2C1877071B6B162F0001D92B /* Main.storyboard */,
 				2C18770A1B6B162F0001D92B /* Images.xcassets */,
 				2C18770C1B6B16300001D92B /* LaunchScreen.xib */,
@@ -192,6 +198,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C60E7241B6B413F0002C14D /* RequestForLayout.rtf in Resources */,
 				2C1877091B6B162F0001D92B /* Main.storyboard in Resources */,
 				2C18770E1B6B16300001D92B /* LaunchScreen.xib in Resources */,
 				2C18770B1B6B162F0001D92B /* Images.xcassets in Resources */,
@@ -212,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C1877241B6B1EA80001D92B /* RoundButton.swift in Sources */,
 				2C1877061B6B162F0001D92B /* ViewController.swift in Sources */,
 				2C1877041B6B162F0001D92B /* AppDelegate.swift in Sources */,
 			);
@@ -411,6 +419,7 @@
 				2C18771F1B6B16300001D92B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2C1877201B6B16300001D92B /* Build configuration list for PBXNativeTarget "CenterButtonTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +428,7 @@
 				2C1877221B6B16300001D92B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
