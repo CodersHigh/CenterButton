@@ -43,8 +43,11 @@
                         <constraints>
                             <constraint firstItem="adl-xO-s1b" firstAttribute="width" secondItem="rVr-ie-X11" secondAttribute="width" id="R4I-nU-ftP"/>
                             <constraint firstItem="adl-xO-s1b" firstAttribute="width" secondItem="0bW-Mo-LPc" secondAttribute="width" id="Z2U-T6-xS1"/>
+                            <constraint firstItem="adl-xO-s1b" firstAttribute="centerY" secondItem="0bW-Mo-LPc" secondAttribute="centerY" id="ZZn-um-fiK"/>
                             <constraint firstItem="adl-xO-s1b" firstAttribute="height" secondItem="rVr-ie-X11" secondAttribute="height" id="dMe-lm-BDW"/>
                             <constraint firstItem="adl-xO-s1b" firstAttribute="height" secondItem="0bW-Mo-LPc" secondAttribute="height" id="ftv-sx-1p6"/>
+                            <constraint firstItem="adl-xO-s1b" firstAttribute="centerY" secondItem="rVr-ie-X11" secondAttribute="centerY" id="hfc-kp-T32"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="adl-xO-s1b" secondAttribute="bottom" constant="8" symbolic="YES" id="qVj-br-diY"/>
                         </constraints>
                     </view>
                 </viewController>
