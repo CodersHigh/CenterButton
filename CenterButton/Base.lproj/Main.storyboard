@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="adl-xO-s1b" customClass="RoundButton" customModule="CenterButton">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="adl-xO-s1b" customClass="RoundButton" customModule="CenterButton">
                                 <rect key="frame" x="255" y="539" width="90" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="HQf-3G-hdh"/>
@@ -26,13 +26,13 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0bW-Mo-LPc" customClass="RoundButton" customModule="CenterButton">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0bW-Mo-LPc" customClass="RoundButton" customModule="CenterButton">
                                 <rect key="frame" x="157" y="539" width="90" height="34"/>
                                 <state key="normal" title="Cancel">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rVr-ie-X11" customClass="RoundButton" customModule="CenterButton">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rVr-ie-X11" customClass="RoundButton" customModule="CenterButton">
                                 <rect key="frame" x="353" y="539" width="90" height="34"/>
                                 <state key="normal" title="Restore">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -50,7 +50,7 @@
                             <constraint firstItem="adl-xO-s1b" firstAttribute="height" secondItem="0bW-Mo-LPc" secondAttribute="height" id="ftv-sx-1p6"/>
                             <constraint firstItem="adl-xO-s1b" firstAttribute="centerY" secondItem="rVr-ie-X11" secondAttribute="centerY" id="hfc-kp-T32"/>
                             <constraint firstItem="rVr-ie-X11" firstAttribute="leading" secondItem="adl-xO-s1b" secondAttribute="trailing" constant="8" id="oh5-LM-Aes"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="adl-xO-s1b" secondAttribute="bottom" constant="8" symbolic="YES" id="qVj-br-diY"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="adl-xO-s1b" secondAttribute="bottom" constant="27" id="qVj-br-diY"/>
                         </constraints>
                     </view>
                 </viewController>
