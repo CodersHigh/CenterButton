@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="adl-xO-s1b" customClass="RoundButton" customModule="CenterButton">
-                                <rect key="frame" x="255" y="539" width="90" height="34"/>
+                                <rect key="frame" x="215" y="539" width="90" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="HQf-3G-hdh"/>
                                     <constraint firstAttribute="width" constant="90" id="tvT-0o-USy"/>
@@ -27,13 +27,13 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0bW-Mo-LPc" customClass="RoundButton" customModule="CenterButton">
-                                <rect key="frame" x="157" y="539" width="90" height="34"/>
+                                <rect key="frame" x="117" y="539" width="90" height="34"/>
                                 <state key="normal" title="Cancel">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rVr-ie-X11" customClass="RoundButton" customModule="CenterButton">
-                                <rect key="frame" x="353" y="539" width="90" height="34"/>
+                                <rect key="frame" x="313" y="539" width="90" height="34"/>
                                 <state key="normal" title="Restore">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -45,7 +45,7 @@
                             <constraint firstItem="adl-xO-s1b" firstAttribute="width" secondItem="0bW-Mo-LPc" secondAttribute="width" id="Z2U-T6-xS1"/>
                             <constraint firstItem="adl-xO-s1b" firstAttribute="leading" secondItem="0bW-Mo-LPc" secondAttribute="trailing" constant="8" id="ZBN-Nw-bh5"/>
                             <constraint firstItem="adl-xO-s1b" firstAttribute="centerY" secondItem="0bW-Mo-LPc" secondAttribute="centerY" id="ZZn-um-fiK"/>
-                            <constraint firstItem="adl-xO-s1b" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aC7-dM-tIu"/>
+                            <constraint firstItem="adl-xO-s1b" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-40" id="aC7-dM-tIu"/>
                             <constraint firstItem="adl-xO-s1b" firstAttribute="height" secondItem="rVr-ie-X11" secondAttribute="height" id="dMe-lm-BDW"/>
                             <constraint firstItem="adl-xO-s1b" firstAttribute="height" secondItem="0bW-Mo-LPc" secondAttribute="height" id="ftv-sx-1p6"/>
                             <constraint firstItem="adl-xO-s1b" firstAttribute="centerY" secondItem="rVr-ie-X11" secondAttribute="centerY" id="hfc-kp-T32"/>
