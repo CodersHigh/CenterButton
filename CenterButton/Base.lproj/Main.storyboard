@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -17,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="adl-xO-s1b" customClass="RoundButton" customModule="CenterButton">
-                                <rect key="frame" x="255" y="539" width="90" height="34"/>
+                                <rect key="frame" x="310" y="539" width="90" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="90" id="0Ol-xz-ZRL"/>
                                     <constraint firstAttribute="height" constant="34" id="IBC-jb-wFX"/>
@@ -27,7 +28,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0bW-Mo-LPc" customClass="RoundButton" customModule="CenterButton">
-                                <rect key="frame" x="255" y="539" width="90" height="34"/>
+                                <rect key="frame" x="200" y="539" width="90" height="34"/>
                                 <state key="normal" title="Cancel">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -37,8 +38,8 @@
                         <constraints>
                             <constraint firstItem="adl-xO-s1b" firstAttribute="centerY" secondItem="0bW-Mo-LPc" secondAttribute="centerY" id="6Ld-rQ-TLO"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="adl-xO-s1b" secondAttribute="bottom" constant="27" id="8Dw-rz-Xf8"/>
-                            <constraint firstAttribute="centerX" secondItem="0bW-Mo-LPc" secondAttribute="centerX" id="EyD-bF-2Sg"/>
-                            <constraint firstAttribute="centerX" secondItem="adl-xO-s1b" secondAttribute="centerX" id="K94-3S-zSt"/>
+                            <constraint firstItem="0bW-Mo-LPc" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-10" id="EyD-bF-2Sg"/>
+                            <constraint firstItem="adl-xO-s1b" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="10" id="K94-3S-zSt"/>
                             <constraint firstItem="adl-xO-s1b" firstAttribute="height" secondItem="0bW-Mo-LPc" secondAttribute="height" id="QZ8-Bh-uFO"/>
                             <constraint firstItem="adl-xO-s1b" firstAttribute="width" secondItem="0bW-Mo-LPc" secondAttribute="width" id="gix-Nq-vJD"/>
                         </constraints>
