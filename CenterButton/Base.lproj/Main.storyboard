@@ -16,20 +16,32 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="adl-xO-s1b" customClass="RoundButton" customModule="CenterButton">
-                                <rect key="frame" x="304" y="539" width="90" height="34"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="adl-xO-s1b" customClass="RoundButton" customModule="CenterButton">
+                                <rect key="frame" x="255" y="539" width="90" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="0Ol-xz-ZRL"/>
+                                    <constraint firstAttribute="height" constant="34" id="IBC-jb-wFX"/>
+                                </constraints>
                                 <state key="normal" title="Purchase">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0bW-Mo-LPc" customClass="RoundButton" customModule="CenterButton">
-                                <rect key="frame" x="206" y="539" width="90" height="34"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0bW-Mo-LPc" customClass="RoundButton" customModule="CenterButton">
+                                <rect key="frame" x="255" y="539" width="90" height="34"/>
                                 <state key="normal" title="Cancel">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="adl-xO-s1b" firstAttribute="centerY" secondItem="0bW-Mo-LPc" secondAttribute="centerY" id="6Ld-rQ-TLO"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="adl-xO-s1b" secondAttribute="bottom" constant="27" id="8Dw-rz-Xf8"/>
+                            <constraint firstAttribute="centerX" secondItem="0bW-Mo-LPc" secondAttribute="centerX" id="EyD-bF-2Sg"/>
+                            <constraint firstAttribute="centerX" secondItem="adl-xO-s1b" secondAttribute="centerX" id="K94-3S-zSt"/>
+                            <constraint firstItem="adl-xO-s1b" firstAttribute="height" secondItem="0bW-Mo-LPc" secondAttribute="height" id="QZ8-Bh-uFO"/>
+                            <constraint firstItem="adl-xO-s1b" firstAttribute="width" secondItem="0bW-Mo-LPc" secondAttribute="width" id="gix-Nq-vJD"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
