@@ -11,15 +11,15 @@ import UIKit
 @IBDesignable
 class RoundButton: UIButton {
 
-    override var highlighted : Bool {
+    override var isHighlighted : Bool {
         didSet {
-            if highlighted {
+            if isHighlighted {
                 self.backgroundColor = self.tintColor
-                self.layer.borderColor = self.titleColorForState(.Highlighted)?.CGColor
+                self.layer.borderColor = self.titleColor(for: .highlighted)?.cgColor
                 
             } else {
-                self.backgroundColor = UIColor.clearColor()
-                self.layer.borderColor = self.tintColor?.CGColor
+                self.backgroundColor = UIColor.clear
+                self.layer.borderColor = self.tintColor?.cgColor
             }
         }
     }
@@ -28,7 +28,7 @@ class RoundButton: UIButton {
         super.layoutSubviews()
         self.layer.cornerRadius = 8
         self.layer.borderWidth = 2
-        self.layer.borderColor = self.tintColor?.CGColor
-        self.setTitleColor(UIColor.whiteColor(), forState: .Highlighted)
+        self.layer.borderColor = self.tintColor?.cgColor
+        self.setTitleColor(UIColor.white, for: .highlighted)
     }
 }
